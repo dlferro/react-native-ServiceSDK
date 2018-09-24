@@ -28,9 +28,9 @@ RCT_EXPORT_METHOD(setCasesInterfaceVisible:(BOOL)visible
 
 RCT_REMAP_METHOD(launchChat,
                  liveAgentPod:(NSString *_Nonnull)liveAgentPod
-                 orgId:(NSString *_Nonnull)orgID
+                 orgId:(NSString *_Nonnull)orgId
                  deploymentId:(NSString *_Nonnull)deploymentId
-                 buttonId:(NSString *_Nonnull)buttonID) {
+                 buttonId:(NSString *_Nonnull)buttonId) {
     SCSChatConfiguration *config = [[SCSChatConfiguration alloc] initWithLiveAgentPod:liveAgentPod
                                                                                 orgId:orgId
                                                                          deploymentId:deploymentId
