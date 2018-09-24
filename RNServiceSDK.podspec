@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license          = pjson["license"]
   s.homepage         = 'https://github.com/dlferro/react-native-ServiceSDK'
   s.source           = { :git => "https://github.com/dlferro/react-native-ServiceSDK.git" }
-  s.source_files     = 'RNServiceCloudSDK/*'
+  s.source_files     = 'RNServiceSDK/*'
   s.platform         = :ios, "9.0"
   s.dependency 'ServiceSDK'
   s.dependency 'React'
