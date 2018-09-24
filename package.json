@@ -1,8 +1,8 @@
 
 {
-  "name": "react-native-react-native-service-sdk",
+  "name": "@dferro/react-native-react-native-service-sdk",
   "version": "0.0.1",
-  "description": "React Native bridge for Salesforce Service Snap-ins SDK",
+  "description": "React Native bridge for Salesforce Service Snap-Ins SDK",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
