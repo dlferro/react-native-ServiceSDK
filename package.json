@@ -1,4 +1,3 @@
-
 {
   "name": "@dferro/react-native-react-native-service-sdk",
   "version": "0.0.1",
@@ -12,7 +11,14 @@
   ],
   "author": "dlferro",
   "license": "MIT",
+  "devDependencies": {
+    "react": "16.5.0",
+
+    "react-native": "^0.57.0"
+  },
   "peerDependencies": {
+    "react": "16.5.0",
+
     "react-native": "^0.57.0"
   }
 }
